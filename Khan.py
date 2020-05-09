@@ -4,8 +4,8 @@
         
         #############################################
         #                                           #
-        #    Facebook BruteForce, by Rana Aahil     #
-        #    Facebook Contact:       Aahil          #
+        #    Facebook BruteForce, by adii Aadil     #
+        #    Facebook Contact:       adiil.         #
         #                                           #
         #############################################
 
