@@ -25,7 +25,7 @@ user = raw_input('[💀] Target Username/ID/Email >>?? ')
 time.sleep(0.8)
 wrdlstFileName = raw_input('\n[💀] Wordlist Type pk.txt >> ')
 try:
-    wordlist = open(wrdlstFileName, 'r')
+    wordlist = open(worldlistFileName, 'r')
 except FileNotFoundError:
     print ('\n[!] File Not Found!')
     exit()
